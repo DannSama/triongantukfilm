@@ -1,0 +1,29 @@
+.dark-bg {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  #carouselExampleIndicators {
+    max-width: 1000px; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 0 0;
+  }
+  .dark-theme .card {
+    background-color: #343a40;
+    color: #fff;
+  }
+  .card-img-top {
+    height: 340px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  #paylogo {
+    height: 20px;
+    width: 20px;
+  }
